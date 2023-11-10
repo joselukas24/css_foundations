@@ -1,0 +1,23 @@
+a {
+  color: inherit;
+}
+
+ul {
+  color: red;
+}
+
+li.list-item #link-2 {
+  color: yellow;
+}
+
+ul.list {
+  color: blue;
+}
+
+li #link-2 {
+  color: orange;
+}
+
+ul.list #link-2 {
+  color: red;
+}
