@@ -1,3 +1,5 @@
+@import "./base.css";
+
 @font-face {
   font-family: Inter;
   src: url(../fonts/Inter-Regular.ttf);
@@ -9,9 +11,9 @@
 }
 
 body {
-  background-color: #ff7b54;
-  color: #ffffff;
-  font-family: InterBold;
+  background-color: var(--color-primary);
+  color: var(--color-text-on-primary);
+  font-family: var(--font-family);
 }
 
 a {
