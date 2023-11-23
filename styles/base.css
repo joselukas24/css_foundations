@@ -17,6 +17,32 @@ a {
 
 header {
   display: flex;
-  justify-content: center;
-  align-items: stretch;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: inline-block;
+  border: 2px solid white;
+}
+
+nav > * > * {
+  border: 1px dashed white;
+}
+
+nav > ul {
+  list-style: none;
+  display: flex;
+}
+
+nav > ul li {
+  margin-right: 36px;
+}
+
+/* .flex-container {
+  display: flex;
+} */
+
+img {
+  border: 1px dashed black;
 }
