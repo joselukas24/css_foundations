@@ -16,18 +16,26 @@ a {
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 3fr 34px;
+  grid-template-rows: 1fr;
+  grid-template-areas: "logo nav shopping-cart";
   align-items: center;
+  padding: 0 60px;
+}
+
+header > a {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+header > img {
+  grid-area: shopping-cart;
 }
 
 nav {
   display: inline-block;
-  border: 2px solid white;
-}
-
-nav > * > * {
-  border: 1px dashed white;
+  justify-self: end;
 }
 
 nav > ul {
@@ -37,12 +45,6 @@ nav > ul {
 
 nav > ul li {
   margin-right: 36px;
-}
 
-.flex-container {
-  display: flex;
-}
-
-img {
-  border: 1px dashed black;
+  font-size: 20px;
 }
