@@ -39,9 +39,9 @@ nav > ul li {
   margin-right: 36px;
 }
 
-/* .flex-container {
+.flex-container {
   display: flex;
-} */
+}
 
 img {
   border: 1px dashed black;
