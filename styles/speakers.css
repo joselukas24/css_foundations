@@ -45,3 +45,9 @@
   grid-column-gap: 200px;
   grid-row-gap: 120px;
 }
+
+@media (width < 1000px) {
+  .speakers__wrapper {
+    grid-template-columns: 1fr;
+  }
+}
