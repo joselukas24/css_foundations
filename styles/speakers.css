@@ -7,3 +7,41 @@
 .speakers .main__title {
   font-size: 90px;
 }
+
+.speaker__photo {
+  width: 310px;
+  height: 310px;
+  object-fit: cover;
+  margin-bottom: 36px;
+}
+
+.speaker__photo--top {
+  object-position: top;
+}
+
+.speaker__name {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.speaker__company {
+  font-size: 24px;
+  color: var(--color-text-on-secondary);
+  margin-bottom: 32px;
+}
+
+.speaker__bio {
+  font-size: 20px;
+  color: var(--color-text-on-secondary);
+}
+
+.speaker__wrapper {
+  max-width: 460px;
+}
+
+.speakers__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 200px;
+  grid-row-gap: 120px;
+}
